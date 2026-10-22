@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main () {
+	
+	double aux1,aux2,pibini,a,b;
+	
+scanf ("%lf%lf", &a,&b);
+
+pibini = 100.00;
+
+aux1=pibini* ((a/100.00)+1);
+
+aux2=(aux1* ((b/100.00)+1));
+
+
+
+
+printf("%.6lf\n",aux2-100);
+	
+	
+	
+return 0;	
+	
+}
